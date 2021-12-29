@@ -14,7 +14,7 @@ https://getcomposer.org/download/
 
 
 ```
-https://github.com/Jefferson-F-Santos/rgb-gallery.git
+git clone https://github.com/Jefferson-F-Santos/rgb-gallery.git
 ```
 
 #### Comando executado, vamos para o próximo. Agora execute esse comando para instalar as dependências:
