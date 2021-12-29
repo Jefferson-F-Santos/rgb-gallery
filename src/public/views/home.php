@@ -32,7 +32,7 @@
             <img src="../assets/logo.png" alt="Logotipo" />
           </div>
   
-          <div class="container-menu">
+          <div class="container-menu active-none">
             <ul id="list-page">
               <li>Página 1</li>
               <li>Página 2</li>
@@ -81,26 +81,6 @@
           </div>
         </div>
       </main>
-
-      <div class="container-modal none-modal">
-
-        <div class="content">
-          <div class="img-modal">
-            <img src="../assets/imageCards/01.webp" alt="test">
-          </div>
-
-          <h1>Pessoa ou Empresa</h1>
-
-          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered 
-            alteration in some form, by injected humour, or randomised words which don\'t look even slightly 
-            believable.</p>
-
-          <button id="modalFechar">Fechar</button>
-
-        </div>
-
-      </div>
-
       <footer>
         <div class="wrapper">
           <div class="row-top">

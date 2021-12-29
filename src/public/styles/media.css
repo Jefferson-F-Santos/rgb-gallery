@@ -4,3 +4,35 @@
         padding: 0 1.2rem;
     }
 }
+
+@media screen and (max-width: 635px){
+    .row-top div{
+        width: 100%;
+        flex-flow: column;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    #content-left .content-img{
+        width: 80%;
+        height: 250px;
+    }
+
+    .row-top div:nth-child(1) .wrapper-text{
+        width: 80%;
+    }
+
+    .wrapper-text h1{
+        font-size: 1.6rem;
+        font-weight: 400;
+        margin: .5rem 0;
+    }
+    .row-top div:nth-child(2) h2{
+        line-height: 50px;
+    }
+    .wrapper #row-bottom{
+        height: auto;
+        padding: 1rem 0;
+        gap: 20px 0;
+        flex-flow: column-reverse;
+    }
+}

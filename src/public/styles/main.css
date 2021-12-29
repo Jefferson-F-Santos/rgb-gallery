@@ -17,6 +17,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
   font-family: "Roboto", sans-serif;
 }
 
@@ -45,6 +46,6 @@ footer .wrapper{
   margin: 0 auto;
 }
 
-.interface .none-modal{
+body .interface .none-modal{
   display: none !important;
 }

@@ -5,3 +5,5 @@ $('#btn-menu').click(function(){
 $('#modalFechar').click(function(){
     $('.container-modal').toggleClass('none-modal');
 });
+
+

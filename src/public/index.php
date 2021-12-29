@@ -36,8 +36,8 @@ $container['db'] = function ($container) use ($capsule) {
 };
 
 $app->get('/', function (Request $request, Response $response, array $args): Response {
-    return $response
-        ->withStatus(200);
+    $url = "./src/public/views/home.php";
+    return $response->withRedirect($url);
 });
 $app->get('/images', ImageController::class . ':getImages');
 
