@@ -1,0 +1,16 @@
+{
+    "require": {
+        "slim/slim": "3.*",
+        "illuminate/database": "~5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": false
+        }
+    }
+}

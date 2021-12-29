@@ -1,0 +1,50 @@
+:root {
+  --color-primary-light: #ffffff;
+  --color-secondary-light: #f8f8f8;
+  --color-primary-dark: #000000;
+  --color-primary-text: #636363;
+  --color-red: #e63946;
+  --color-blue: #457b9d;
+  --color-site: #cb6133;
+  --color-border: #c7c7c7;
+  --border-footer-bottom: linear-gradient(to right, #f8f8f8, #efefef, #e5e5e5, #dcdcdc, #d3d3d3, #d3d3d3, #d3d3d3, #d3d3d3, #dcdcdc, #e5e5e5, #efefef, #f8f8f8);
+  --w-card: 200px;
+  --h-img: 200px;
+  --distance-margin: 10%;
+}
+  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.interface {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.interface, 
+.interface header, 
+.interface main, 
+.interface footer{
+  background-color: var(--color-secondary-light);
+}
+
+.interface :is(header, main, footer){
+  width: 100%;
+}
+
+header .wrapper,
+main .wrapper,
+footer .wrapper{
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.interface .none-modal{
+  display: none !important;
+}

@@ -1,0 +1,133 @@
+.interface main {
+  padding: 90px 0 40px;
+}
+
+main #container-cards {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+#container-cards .content-card {
+  width: var(--w-card);
+  padding: 0 0 7px;
+}
+
+.content-card .container-img-card {
+  width: 100%;
+  height: var(--h-img);
+}
+
+.container-img-card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.content-card .title-and-lt {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-and-lt h2 {
+  padding: 5px 0;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+  color: var(--color-secondary-dark);
+}
+
+.title-and-lt .btns-socialMedia {
+  padding: 7px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--color-border);
+}
+
+.btns-socialMedia .btn-lt {
+  border: none;
+  cursor: pointer;
+  padding: 2px 5px;
+  border-radius: 3px;
+  letter-spacing: 0.2px;
+  color: var(--color-primary-light);
+  background-color: var(--color-blue);
+}
+
+/*Modal*/
+
+.interface .container-modal{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,.5);
+}
+
+.container-modal .content{
+  position: relative;
+  width: 500px;
+  height: 90%;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column;
+  background: var(--color-primary-light);
+}
+
+.container-modal .img-modal{
+  width: 100%;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.img-modal img{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.content h1{
+  font-size: 1.5rem;
+  line-height: 50px;
+  color: var(--color-secondary-dark);
+}
+
+.content p{
+  font-size: 1rem;
+  letter-spacing: .5px;
+  line-height: 23px;
+}
+
+.content #modalFechar{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  border-radius: 3px;
+  transition: filter .2s ease;
+  color: var(--color-primary-light);
+  background-color: var(--color-blue);
+}
+
+.content #modalFechar:hover{
+  filter: grayscale(30%);
+}
